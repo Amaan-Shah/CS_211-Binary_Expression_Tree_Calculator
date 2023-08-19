@@ -1,0 +1,32 @@
+42 64 +
+Infix notation: ( 42  +  64 )
+Prefix notation:  +  42  64 
+Postfix notation:  42  64  + 
+Expression result: 106
+
+60 43 18 * + 57 +
+Infix notation: (( 60  + ( 43  *  18 )) +  57 )
+Prefix notation:  +  +  60  *  43  18  57 
+Postfix notation:  60  43  18  *  +  57  + 
+Expression result: 891
+
+60 43 + 18 57 + *
+Infix notation: (( 60  +  43 ) * ( 18  +  57 ))
+Prefix notation:  *  +  60  43  +  18  57 
+Postfix notation:  60  43  +  18  57  +  * 
+Expression result: 7725
+
+18 12 - 3 -
+Infix notation: (( 18  -  12 ) -  3 )
+Prefix notation:  -  -  18  12  3 
+Postfix notation:  18  12  -  3  - 
+Expression result: 3
+
+18 12 3 -  -
+Infix notation: ( 18  - ( 12  -  3 ))
+Prefix notation:  -  18  -  12  3 
+Postfix notation:  18  12  3  -  - 
+Expression result: 9
+
+
+Goodbye
